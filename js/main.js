@@ -63,7 +63,7 @@
       <header class="site-header" id="top">
         <div class="lang-switch" role="group" aria-label="Language / 语言">
           <button type="button" data-lang-btn="en" class="lang-btn">EN</button>
-          <button type="button" data-lang-btn="zh" class="lang-btn">中文</button>
+          <button type="button" data-lang-btn="zh" class="lang-btn">CN</button>
         </div>
         <div class="hero">
           <div class="avatar-wrap">
