@@ -91,7 +91,6 @@
       <nav class="site-nav" aria-label="Main navigation">
         ${C.nav.map(function (item, i) {
           const ids = ['#about', '#education', '#publications', '#skills', '#trajectory', '#projects', '#field'];
-          if (SITE.trajectory.show === false && ids[i] === '#trajectory') return '';
           return `<a href="${ids[i]}">${esc(item)}</a>`;
         }).join('')}
       </nav>`;
@@ -131,7 +130,6 @@
           <div class="proj-head">
             <span class="proj-type mono">${esc(badge)}</span>
             <h3>${esc(T.title)}</h3>
-            ${proj.github ? `<a class="proj-github" href="${esc(proj.github)}" target="_blank" rel="noopener noreferrer">GitHub ↗</a>` : ''}
             <div class="proj-meta mono">
               <span>${esc(proj.period)}</span><span class="sep">·</span><span>${esc(proj.role)}</span><span class="sep">·</span><span>${esc(proj.site)}</span>
             </div>
@@ -267,7 +265,7 @@
       </footer>`;
 
     document.getElementById('app').innerHTML =
-      header + nav + `<main>` + about + education + publications + skills + (SITE.trajectory.show === false ? '' : trajectory) + projects + field + `</main>` + footer;
+      header + nav + `<main>` + about + education + publications + skills + trajectory + projects + field + `</main>` + footer;
 
     setLang(lang);
 
