@@ -586,6 +586,7 @@ const SITE = {
      方法/尺度为底部灰度演化链。start/end 为年份单位（0=2021 … 5=2026）。
   */
   trajectory: {
+    show: false,   /* 设为 false 可隐藏研究轨迹模块（含导航项） */
     en: {
       heading: 'Research Trajectory',
       subtitle: 'From ecosystem processes to spatial environmental monitoring',

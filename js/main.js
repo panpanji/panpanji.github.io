@@ -91,6 +91,7 @@
       <nav class="site-nav" aria-label="Main navigation">
         ${C.nav.map(function (item, i) {
           const ids = ['#about', '#education', '#publications', '#skills', '#trajectory', '#projects', '#field'];
+          if (SITE.trajectory.show === false && ids[i] === '#trajectory') return '';
           return `<a href="${ids[i]}">${esc(item)}</a>`;
         }).join('')}
       </nav>`;
@@ -263,7 +264,7 @@
       </footer>`;
 
     document.getElementById('app').innerHTML =
-      header + nav + `<main>` + about + education + publications + skills + trajectory + projects + field + `</main>` + footer;
+      header + nav + `<main>` + about + education + publications + skills + (SITE.trajectory.show === false ? '' : trajectory) + projects + field + `</main>` + footer;
 
     setLang(lang);
 
