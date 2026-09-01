@@ -30,15 +30,15 @@ const SITE = {
 
   /* ---------- 导航 nav ---------- */
   nav: {
-    en: ['Research Interests', 'Education', 'Publications', 'Skills', 'Trajectory', 'Projects', 'Field Work'],
-    zh: ['研究兴趣', '教育背景', '发表与产出', '技能与方法', '研究轨迹', '研究项目', '野外研究']
+    en: ['Research Interests', 'Education', 'Publications', 'Skills', 'Trajectory', 'Projects', 'Field Work', 'GitHub'],
+    zh: ['研究兴趣', '教育背景', '发表与产出', '技能与方法', '研究轨迹', '研究项目', '野外研究', 'GitHub']
   },
 
   /* ---------- 关于我 about ---------- */
   about: {
     en: {
       heading: 'Research Interests',
-      text: 'I have a background in ecosystem and environmental science, with an MSc in Environmental Monitoring, Modelling and Reconstruction from the University of Manchester. My research applies remote sensing, spatial modelling, and data-driven methods to understand environmental change and support ecosystem restoration, integrating multi-source Earth observation, field measurements, and geospatial analysis across spatial scales. I am developing GeoAI and machine-learning skills to strengthen environmental monitoring and prediction.',
+      text: 'My research applies remote sensing, spatial modelling, and data-driven methods to understand environmental change and support ecosystem restoration, integrating multi-source Earth observation, field measurements, and geospatial analysis across spatial scales. I am developing GeoAI and machine-learning skills to strengthen environmental monitoring and prediction.',
       profile: [
         'Remote sensing & Earth observation',
         'Spatial and environmental modelling',
@@ -50,7 +50,7 @@ const SITE = {
     },
     zh: {
       heading: '研究兴趣',
-      text: '我具有生态系统与环境科学背景，硕士毕业于曼彻斯特大学（环境监测、建模与重建专业）。我的研究应用遥感、空间建模与数据驱动方法理解环境变化并支持生态系统恢复，整合跨空间尺度的多源对地观测、野外测量与地理空间分析；并正着力发展 GeoAI 与机器学习能力，以强化环境监测与预测。',
+      text: '我的研究应用遥感、空间建模与数据驱动方法理解环境变化并支持生态系统恢复，整合跨空间尺度的多源对地观测、野外测量与地理空间分析；并正着力发展 GeoAI 与机器学习能力，以强化环境监测与预测。',
       profile: [
         '遥感与对地观测',
         '空间与环境建模',

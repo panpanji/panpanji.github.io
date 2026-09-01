@@ -91,6 +91,9 @@
       <nav class="site-nav" aria-label="Main navigation">
         ${C.nav.map(function (item, i) {
           const ids = ['#about', '#education', '#publications', '#skills', '#trajectory', '#projects', '#field'];
+          if (item === 'GitHub') {
+            return `<a href="https://github.com/panpanji" target="_blank" rel="noopener noreferrer">${esc(item)} ↗</a>`;
+          }
           return `<a href="${ids[i]}">${esc(item)}</a>`;
         }).join('')}
       </nav>`;
