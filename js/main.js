@@ -130,6 +130,7 @@
           <div class="proj-head">
             <span class="proj-type mono">${esc(badge)}</span>
             <h3>${esc(T.title)}</h3>
+            ${proj.github ? `<a class="proj-github" href="${esc(proj.github)}" target="_blank" rel="noopener noreferrer">GitHub ↗</a>` : ''}
             <div class="proj-meta mono">
               <span>${esc(proj.period)}</span><span class="sep">·</span><span>${esc(proj.role)}</span><span class="sep">·</span><span>${esc(proj.site)}</span>
             </div>

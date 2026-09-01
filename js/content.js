@@ -123,6 +123,7 @@ const SITE = {
       role: 'MSc dissertation',
       site: 'Bolton Fell Moss, Cumbria, UK',
       supervisor: 'Dr Emma Shuttleworth, Department of Geography, University of Manchester',
+      github: 'https://github.com/panpanji/peatland-restoration-bolton-fell-moss',
       en: {
         title: 'Assessing Nitrogen and Sediment Export during Peatland Restoration at Bolton Fell Moss (MSc Dissertation)',
         keywords: ['Peatland restoration', 'InVEST NDR/SDR', 'Data-limited environments', 'Google Earth Engine', 'Land cover change', 'Spatial modelling', 'Bare peat'],
@@ -140,6 +141,87 @@ const SITE = {
         results: '2015–2020 年间，面积加权模拟氮输出由 3.50 降至 0.72 kg ha⁻¹ yr⁻¹（−79.5%）、泥沙输出由 0.033 降至 0.0058 t ha⁻¹ yr⁻¹（−82.4%），与英国其他泥炭地观测一致；高植被泥炭占比由 9.6% 增至 66.9%，裸泥炭由 16.0% 降至 0；高风险区由中南部连片区域收缩为边缘斑块，历史排水沟附近仍存在残余风险。鉴于参数未经本地标定、模型对泥炭地水文有所简化，结果作为相对趋势而非绝对数值解释。',
         output: '硕士毕业论文，曼彻斯特大学（2025），导师 Dr Emma Shuttleworth',
         skills: '空间数据配准与重采样；GEE 土地覆被分类；InVEST NDR/SDR 建模；时空变化分析；模型局限的批判性评估'
+      }
+    },
+    {
+      id: 'project-cygnss',
+      type: 'research',
+      period: '2026',
+      role: 'Personal research project',
+      site: 'Central Kalimantan, Indonesia',
+      supervisor: '—',
+      github: 'https://github.com/panpanji/cygnss-5km-grid-availability',
+      en: {
+        title: 'CYGNSS Observation Availability on a 5 km Grid (Satellite Data Processing)',
+        keywords: ['Satellite data processing', 'CYGNSS', 'GNSS reflectometry', 'Spatial grid analysis', 'Vectorised computation', 'Data-feasibility assessment'],
+        problem: 'Before any satellite-based analysis at a given scale, you need to know whether the sensor actually delivers enough observations in the study region — in space and in time. This pipeline quantifies that for CYGNSS over Central Kalimantan tropical peatland.',
+        approach: 'Wrote a Python pipeline that downloads CYGNSS L1 V3.2 granules from NASA Earthdata, builds a 5 km fishnet in the local UTM projection, assigns every observation to a cell with fully vectorised bounding-box + grid-index filtering, and computes six coverage indicators (observation count, valid days, availability, mean daily count, observation frequency, point density). Outputs CSV, GeoPackage, processing metadata and a six-panel map. Includes resume support and a fast single-day test mode.',
+        results: 'Produces a 5 km-resolution, month-by-month view of CYGNSS space-time coverage over the study area. The fully vectorised implementation processes a full month of granules on a desktop machine, and the pipeline is published as an open-source, reproducible repository.',
+        output: 'Open-source Python pipeline (github.com/panpanji/cygnss-5km-grid-availability)',
+        skills: 'Python (xarray, geopandas, earthaccess, pyproj, shapely, numpy, matplotlib); satellite data processing; spatial grid analysis; performance optimisation; reproducible research'
+      },
+      zh: {
+        title: 'CYGNSS 卫星数据 5 km 网格时空覆盖处理（Python 管道）',
+        keywords: ['卫星数据处理', 'CYGNSS', 'GNSS 反射测量', '空间网格分析', '向量化计算', '数据可行性评估'],
+        problem: '在开展任何特定尺度的卫星分析之前，需要先确认传感器在研究区是否真正提供足够的观测——空间上和时间上。本管道针对加里曼丹热带泥炭地，量化 CYGNSS 的时空覆盖。',
+        approach: '编写 Python 管道：从 NASA Earthdata 下载 CYGNSS L1 V3.2 数据，在本地 UTM 投影下构建 5 km 渔网，用完全向量化的 bbox+网格索引过滤将每条观测分配到格网，并计算六个覆盖指标（观测数、有效天数、可用性、日均观测数、观测频率、点密度）。输出 CSV、GeoPackage、处理元数据与六面板图。支持断点续跑与快速单日测试。',
+        results: '生成研究区 5 km 分辨率、逐月的 CYGNSS 时空覆盖产品；全向量化实现使整月数据在桌面端高效运行；管道以开源可复现仓库形式发布。',
+        output: '开源 Python 管道（github.com/panpanji/cygnss-5km-grid-availability）',
+        skills: 'Python（xarray、geopandas、earthaccess、pyproj、shapely、numpy、matplotlib）；卫星数据处理；空间网格分析；性能优化；可复现研究'
+      }
+    },
+    {
+      id: 'project-gee',
+      type: 'research',
+      period: '2025–2026',
+      role: 'Personal research project',
+      site: 'Google Earth Engine',
+      supervisor: '—',
+      github: 'https://github.com/panpanji/gee-remote-sensing',
+      en: {
+        title: 'Remote-Sensing Time Series and Data-Feasibility Scripts (Google Earth Engine)',
+        keywords: ['Google Earth Engine', 'LandTrendr', 'NDVI time series', 'TROPOMI CH4', 'Tropical peatland', 'Feasibility assessment'],
+        problem: 'Two questions relevant to peatland work: (1) how has vegetation changed over time at Bolton Fell Moss, and (2) does TROPOMI CH4 actually provide usable coverage over Central Kalimantan at the target grid scale?',
+        approach: 'A set of GEE scripts: LandTrendr spectral-temporal segmentation of growing-season NDVI (2000–2023) at Bolton Fell Moss; and TROPOMI CH4 monthly observation-availability counts over Central Kalimantan at 5, 10 and 25 km grid resolutions across the 2019–2023 dry seasons. A Landsat TOA/SR comparison with NDVI stratified by NLCD land cover is included as a tutorial script.',
+        results: 'LandTrendr change maps (magnitude, year of detection, duration) for the peatland, and a multi-scale, month-by-month view of TROPOMI CH4 observation availability that supports an evidence-based judgement on data feasibility at each grid scale.',
+        output: 'Open-source GEE scripts (github.com/panpanji/gee-remote-sensing)',
+        skills: 'Google Earth Engine; LandTrendr; vegetation time series; raster-vector processing; satellite data-feasibility assessment; scientific visualisation'
+      },
+      zh: {
+        title: '遥感时间序列与数据可行性脚本（Google Earth Engine）',
+        keywords: ['Google Earth Engine', 'LandTrendr', 'NDVI 时间序列', 'TROPOMI CH4', '热带泥炭地', '可行性评估'],
+        problem: '泥炭地研究中的两个问题：其一，Bolton Fell Moss 的植被随时间如何变化；其二，在目标网格尺度下 TROPOMI CH4 在加里曼丹是否真正提供可用的观测覆盖。',
+        approach: '一组 GEE 脚本：对 Bolton Fell Moss 生长季 NDVI（2000–2023）做 LandTrendr 光谱时间分割；在 5/10/25 km 三种网格分辨率下统计加里曼丹 2019–2023 旱季 TROPOMI CH4 月度观测可用性。另含 Landsat TOA/SR 对比及按 NLCD 土地覆被分层的 NDVI 教程脚本。',
+        results: '生成泥炭地 LandTrendr 变化图（变化幅度、检测年份、持续时间）；给出 TROPOMI CH4 观测可用性的多尺度、逐月视图，为各网格尺度的数据可行性判断提供证据。',
+        output: '开源 GEE 脚本（github.com/panpanji/gee-remote-sensing）',
+        skills: 'Google Earth Engine；LandTrendr；植被时间序列；栅格-矢量处理；卫星数据可行性评估；科学可视化'
+      }
+    },
+    {
+      id: 'project-meta',
+      type: 'coursework',
+      period: '2023',
+      role: 'Coursework',
+      site: 'Northwest A&F University',
+      supervisor: '—',
+      github: 'https://github.com/panpanji/bacillus-cadmium-meta-analysis',
+      en: {
+        title: 'Meta-analysis of Cadmium Adsorption by Bacillus subtilis (R)',
+        keywords: ['Meta-analysis', 'R', 'Forest plot', 'Publication bias', 'Heterogeneity', 'Microbial adsorption'],
+        problem: 'Does Bacillus subtilis adsorb cadmium at a higher rate at 10 mg/L than at 20 mg/L?',
+        approach: 'Screened 22 papers from CNKI and included 10 studies with extractable treatment/control data. Pooled the odds ratio with metabin (meta package), assessed heterogeneity (Q, I², H), checked effect-size normality, tested publication bias (funnel plot, Peters test) and applied trim-and-fill and leave-one-out sensitivity analyses.',
+        results: 'The pooled effect favoured the 10 mg/L treatment; heterogeneity was not significant; funnel-plot asymmetry suggested publication bias, but the trim-and-fill correction did not change the conclusion.',
+        output: 'Coursework meta-analysis (github.com/panpanji/bacillus-cadmium-meta-analysis)',
+        skills: 'R (meta package); meta-analysis methods; forest/funnel plots; heterogeneity and publication-bias assessment; sensitivity analysis'
+      },
+      zh: {
+        title: '枯草芽孢杆菌镉吸附 Meta 分析（R）',
+        keywords: ['Meta 分析', 'R', '森林图', '发表偏倚', '异质性', '微生物吸附'],
+        problem: '枯草芽孢杆菌在镉浓度为 10 mg/L 时的吸附率是否高于 20 mg/L？',
+        approach: '从知网筛选 22 篇文献，纳入 10 项含处理/对照数据的研究；用 meta 包 metabin 合并比值比，评估异质性（Q、I²、H），检验效应量正态性，用漏斗图与 Peters 检验评估发表偏倚，并进行 trim-and-fill 与 leave-one-out 敏感性分析。',
+        results: '合并效应倾向于 10 mg/L 处理组；异质性不显著；漏斗图不对称提示存在发表偏倚，但 trim-and-fill 矫正后结论不变。',
+        output: '课程 Meta 分析项目（github.com/panpanji/bacillus-cadmium-meta-analysis）',
+        skills: 'R（meta 包）；Meta 分析方法；森林图/漏斗图；异质性与发表偏倚评估；敏感性分析'
       }
     },
     {
