@@ -520,11 +520,11 @@ const SITE = {
       ],
       scaleMethodsLabel: 'Scales · Methods',
       scaleMethods: [
-        'Plant / plot · Ecological experiments',
-        'Plot · Statistical analysis',
-        'Ecosystem · Process-based modelling',
-        'Landscape · GIS / Remote sensing',
-        'Regional · Spatial modelling'
+        'Plot · Experiments',
+        'Plot · Statistics',
+        'Ecosystem · Modelling',
+        'Landscape · GIS/RS',
+        'Regional · Spatial'
       ]
     },
     zh: {
