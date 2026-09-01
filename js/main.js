@@ -260,6 +260,9 @@
     const footer = `
       <footer class="site-footer">
         <div>${esc(C.footer.line)}</div>
+        <div class="footer-links">
+          <a href="https://github.com/panpanji" target="_blank" rel="noopener noreferrer">${esc(C.footer.githubLabel)} ↗</a>
+        </div>
         <a class="back-top" href="#top">${esc(C.footer.backToTop)} ↑</a>
       </footer>`;
 

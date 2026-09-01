@@ -655,7 +655,7 @@ const SITE = {
 
   /* ---------- 页脚 footer ---------- */
   footer: {
-    en: { line: '© 2026 Panpan Ji · Built on GitHub Pages', backToTop: 'Back to top' },
-    zh: { line: '© 2026 Panpan Ji · 基于 GitHub Pages 构建', backToTop: '返回顶部' }
+    en: { line: '© 2026 Panpan Ji · Built on GitHub Pages', githubLabel: 'GitHub', backToTop: 'Back to top' },
+    zh: { line: '© 2026 Panpan Ji · 基于 GitHub Pages 构建', githubLabel: 'GitHub', backToTop: '返回顶部' }
   }
 };
