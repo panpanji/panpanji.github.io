@@ -380,45 +380,58 @@ const SITE = {
 
   /* ---------- 发表与产出 publications ---------- */
   publications: {
-    en: {
-      heading: 'Publications & Academic Outputs',
-      peerLabel: 'Peer-reviewed',
-      peerItems: [
-        {
-          authors: 'An Y J, Wang J, Yang X Q, <strong>Ji P P</strong>, Zhao W X, Wang X T, Zhang Z X',
-          year: '(2024).',
-          title: 'Germination test for 14 plants under different temperature and water potential conditions on the Qinghai-Tibet Plateau.',
-          journal: 'Pratacultural Science, 41(5): 1078–1087.',
-          doi: 'doi: 10.11829/j.issn.1001-0629.2023-0097',
-          doiUrl: 'https://doi.org/10.11829/j.issn.1001-0629.2023-0097'
-        }
-      ],
-      msLabel: 'Manuscripts',
-      msItems: [
-        { text: '<strong>Ji, P. P.</strong> (co-first author). Conservation tillage and agroecosystem sustainability in karst regions. <em>Under revision.</em>' },
-        { text: '<strong>Ji, P. P.</strong> (co-author). Plant-soil-microbe interactions under drought. <em>In preparation.</em>' }
-      ]
-    },
-    zh: {
-      heading: '发表与学术产出',
-      peerLabel: '同行评审论文',
-      peerItems: [
-        {
-          authors: 'An Y J, Wang J, Yang X Q, <strong>Ji P P</strong>, Zhao W X, Wang X T, Zhang Z X',
-          year: '（2024）.',
-          title: '青藏高原 14 种植物在不同温度与水分势条件下的萌发试验。',
-          journal: '草业科学（Pratacultural Science），41(5)：1078–1087.',
-          doi: 'doi: 10.11829/j.issn.1001-0629.2023-0097',
-          doiUrl: 'https://doi.org/10.11829/j.issn.1001-0629.2023-0097'
-        }
-      ],
-      msLabel: '论文稿件',
-      msItems: [
-        { text: '<strong>Ji, P. P.</strong>（共同第一作者）。喀斯特地区保护性耕作与农田生态系统可持续性。返修中。' },
-        { text: '<strong>Ji, P. P.</strong>（共同作者）。干旱胁迫下植物–土壤–微生物互作。撰写中。' }
-      ]
-    }
+  en: {
+    heading: 'Publications & Academic Outputs',
+    peerLabel: 'Peer-reviewed',
+    peerItems: [
+      {
+        authors: 'An Y J, Wang J, Yang X Q, <strong>Ji P P</strong>, Zhao W X, Wang X T, Zhang Z X',
+        year: '(2024).',
+        title: 'Germination test for 14 plants under different temperature and water potential conditions on the Qinghai-Tibet Plateau.',
+        journal: 'Pratacultural Science, 41(5): 1078–1087.',
+        doi: 'doi: 10.11829/j.issn.1001-0629.2023-0097',
+        doiUrl: 'https://doi.org/10.11829/j.issn.1001-0629.2023-0097'
+      },
+      {
+        authors: '<strong>Ji P P</strong> (co-first author)',
+        year: '(2026).',
+        title: 'Conservation tillage enhances yield, energy efficiency, economic returns, and environmental sustainability in a rapeseed–maize rotation system in a subtropical karst region.',
+        journal: 'European Journal of Agronomy. Accepted for publication.',
+        doi: '',
+        doiUrl: ''
+      }
+    ],
+    msLabel: 'Manuscripts',
+    msItems: [
+      { text: '<strong>Ji, P. P.</strong> (co-author). Plant-soil-microbe interactions under drought. <em>In preparation.</em>' }
+    ]
   },
+    zh: {
+  heading: '发表与学术产出',
+  peerLabel: '同行评审论文',
+  peerItems: [
+    {
+      authors: 'An Y J, Wang J, Yang X Q, <strong>Ji P P</strong>, Zhao W X, Wang X T, Zhang Z X',
+      year: '（2024）.',
+      title: '青藏高原 14 种植物在不同温度与水分势条件下的萌发试验。',
+      journal: '草业科学（Pratacultural Science），41(5)：1078–1087.',
+      doi: 'doi: 10.11829/j.issn.1001-0629.2023-0097',
+      doiUrl: 'https://doi.org/10.11829/j.issn.1001-0629.2023-0097'
+    },
+    {
+      authors: '<strong>Ji P P</strong>（共同第一作者）',
+      year: '（2026）.',
+      title: '保护性耕作提升亚热带喀斯特地区油菜–玉米轮作系统的产量、能源效率、经济收益和环境可持续性。',
+      journal: 'European Journal of Agronomy。已接收（Accepted for publication）。',
+      doi: '',
+      doiUrl: ''
+    }
+  ],
+  msLabel: '论文稿件',
+  msItems: [
+    { text: '<strong>Ji, P. P.</strong>（共同作者）。干旱胁迫下植物–土壤–微生物互作。<em>撰写中。</em>' }
+  ]
+}
 
   /* ---------- 技能与方法 skills ---------- */
   skills: {
