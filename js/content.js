@@ -233,7 +233,7 @@ const SITE = {
         problem: 'Karst soils are thin, erodible, and fragile, so conservation tillage is often proposed but rarely evaluated across productivity and environment together. This study asked whether no-till combined with straw mulching can jointly raise maize yield and quality, energy-use efficiency, and environmental sustainability in a rainfed rapeseed–maize rotation — and how the effects vary by variety.',
         approach: 'Analysed a three-year (2019–2021) rainfed field trial in the karst Yunnan–Guizhou Plateau (Sinan, Guizhou; 27°44′N, 108°11′E): 16 treatments combining 4 maize varieties × no-till/conventional tillage × straw/no-straw mulch, randomised complete block with 3 replicates. Conducted Life Cycle Assessment (LCA) following ISO 14040/14044 (functional unit: 1 ha maize yield; nine impact categories including global warming potential, energy demand, water use, acidification, and eutrophication), together with energy analysis (energy input/output, net energy) and economic analysis. Statistical comparisons by SPSS ANOVA/LSD; figures in Origin.',
         results: 'No-till raised maize yield by 7.7% over conventional tillage, straw mulch improved forage quality (relative feed value +3%, ADF −4.5%), and the no-till + straw combination gave the highest yield (+10%) and net energy (+22%) while lowering global warming potential (−7.4%) and cumulative energy demand (−11.3%). Recommended no-till + straw mulching as a synergistic practice for fragile karst agroecosystems.',
-        output: 'Co-first author, manuscript under revision',
+        output: 'Co-first author. Published in European Journal of Agronomy (2027)',
         skills: 'Multi-year field dataset analysis; LCA (ISO 14040/44); energy and economic analysis; manuscript and figure preparation'
       },
       zh: {
@@ -242,7 +242,7 @@ const SITE = {
         problem: '喀斯特地区土壤浅薄、易侵蚀且脆弱，保护性耕作常被提倡，但很少同时从生产力与环境两个维度进行系统评估。本研究探讨：免耕配合秸秆覆盖能否在雨养油菜–玉米轮作中同时提升玉米产量与饲用品质、能源利用效率与环境可持续性，且效应是否因品种而异。',
         approach: '分析喀斯特云贵高原（贵州思南，27°44′N，108°11′E）2019–2021 三年雨养田间试验：16 个处理 = 4 个玉米品种 × 免耕/传统耕作 × 有/无秸秆覆盖，完全随机区组、3 次重复。依据 ISO 14040/14044 开展生命周期评价（LCA，功能单位为 1 ha 玉米产量，涵盖全球增温潜势、能源需求、水分利用、酸化、富营养化等 9 个影响类别），并结合能量分析（能量投入/产出、净能量）与经济分析；SPSS 方差分析与 LSD 多重比较，Origin 绘图。',
         results: '免耕较传统耕作玉米增产 7.7%，秸秆覆盖提升饲用品质（相对饲喂价值 +3%、酸性洗涤纤维 −4.5%），免耕+覆盖组合产量最高（+10%）且净能量最高（+22%），同时全球增温潜势降低 7.4%、累积能源需求降低 11.3%。推荐免耕配合秸秆覆盖作为脆弱喀斯特农田的协同耕作措施。',
-        output: '共同第一作者，论文返修中',
+        output: '共同第一作者。已发表于 European Journal of Agronomy（2027）',
         skills: '多年田间数据分析；LCA（ISO 14040/44）；能量与经济分析；论文与图件准备'
       }
     },
@@ -380,60 +380,61 @@ const SITE = {
 
   /* ---------- 发表与产出 publications ---------- */
   publications: {
-  en: {
-    heading: 'Publications & Academic Outputs',
-    peerLabel: 'Peer-reviewed',
-    peerItems: [
-      {
-        authors: 'An Y J, Wang J, Yang X Q, <strong>Ji P P</strong>, Zhao W X, Wang X T, Zhang Z X',
-        year: '(2024).',
-        title: 'Germination test for 14 plants under different temperature and water potential conditions on the Qinghai-Tibet Plateau.',
-        journal: 'Pratacultural Science, 41(5): 1078–1087.',
-        doi: 'doi: 10.11829/j.issn.1001-0629.2023-0097',
-        doiUrl: 'https://doi.org/10.11829/j.issn.1001-0629.2023-0097'
-      },
-      {
-        authors: 'Li Z, <strong>Ji P P*</strong>, Peng S, Li Z, Gunina A, Wang T, Yang T, He J, Chen C, Zhang Z',
-        year: '(2027).',
-        title: 'Conservation tillage enhances yield, energy efficiency, economic returns, and environmental sustainability in a rapeseed–maize rotation system in a subtropical karst region.',
-        journal: 'European Journal of Agronomy, 182: 128355',
-        doi: '10.1016/j.eja.2026.128355',
-        doiUrl: 'https://doi.org/10.1016/j.eja.2026.128355'
-      }
-    ],
-    peerNote: '* Co-first author.',
-    msLabel: 'Manuscripts',
-    msItems: [
-      { text: '<strong>Ji, P. P.</strong> (co-author). Plant-soil-microbe interactions under drought. <em>In preparation.</em>' }
-    ]
-  },
-    zh: {
-  heading: '发表与学术产出',
-  peerLabel: '同行评审论文',
-  peerItems: [
-    {
-      authors: 'An Y J, Wang J, Yang X Q, <strong>Ji P P</strong>, Zhao W X, Wang X T, Zhang Z X',
-      year: '（2024）.',
-      title: '青藏高原 14 种植物在不同温度与水分势条件下的萌发试验。',
-      journal: '草业科学（Pratacultural Science），41(5)：1078–1087.',
-      doi: 'doi: 10.11829/j.issn.1001-0629.2023-0097',
-      doiUrl: 'https://doi.org/10.11829/j.issn.1001-0629.2023-0097'
+    en: {
+      heading: 'Publications & Academic Outputs',
+      peerLabel: 'Peer-reviewed',
+      peerItems: [
+        {
+          authors: 'An Y J, Wang J, Yang X Q, <strong>Ji P P</strong>, Zhao W X, Wang X T, Zhang Z X',
+          year: '(2024).',
+          title: 'Germination test for 14 plants under different temperature and water potential conditions on the Qinghai-Tibet Plateau.',
+          journal: 'Pratacultural Science, 41(5): 1078–1087.',
+          doi: 'doi: 10.11829/j.issn.1001-0629.2023-0097',
+          doiUrl: 'https://doi.org/10.11829/j.issn.1001-0629.2023-0097'
+        },
+        {
+          authors: 'Li Z, <strong>Ji P P*</strong>, Peng S, Li Z, Gunina A, Wang T, Yang T, He J, Chen C, Zhang Z',
+          year: '(2027).',
+          title: 'Conservation tillage enhances yield, energy efficiency, economic returns, and environmental sustainability in a rapeseed–maize rotation system in a subtropical karst region.',
+          journal: 'European Journal of Agronomy, 182: 128355',
+          doi: '10.1016/j.eja.2026.128355',
+          doiUrl: 'https://doi.org/10.1016/j.eja.2026.128355'
+        }
+      ],
+      peerNote: '* Co-first author.',
+      msLabel: 'Manuscripts',
+      msItems: [
+        { text: '<strong>Ji, P. P.</strong> (co-author). Plant-soil-microbe interactions under drought. <em>In preparation.</em>' }
+      ]
     },
-    {
-      authors: 'Li Z, <strong>Ji P P*</strong>, Peng S, Li Z, Gunina A, Wang T, Yang T, He J, Chen C, Zhang Z',
-      year: '（2027）.',
-      title: '保护性耕作提升亚热带喀斯特地区油菜–玉米轮作系统的产量、能源效率、经济收益和环境可持续性。',
-      journal: 'European Journal of Agronomy，182: 128355.',
-      doi: '10.1016/j.eja.2026.128355',
-      doiUrl: 'https://doi.org/10.1016/j.eja.2026.128355'
+    zh: {
+      heading: '发表与学术产出',
+      peerLabel: '同行评审论文',
+      peerItems: [
+        {
+          authors: 'An Y J, Wang J, Yang X Q, <strong>Ji P P</strong>, Zhao W X, Wang X T, Zhang Z X',
+          year: '（2024）.',
+          title: '青藏高原 14 种植物在不同温度与水分势条件下的萌发试验。',
+          journal: '草业科学（Pratacultural Science），41(5)：1078–1087.',
+          doi: 'doi: 10.11829/j.issn.1001-0629.2023-0097',
+          doiUrl: 'https://doi.org/10.11829/j.issn.1001-0629.2023-0097'
+        },
+        {
+          authors: 'Li Z, <strong>Ji P P*</strong>, Peng S, Li Z, Gunina A, Wang T, Yang T, He J, Chen C, Zhang Z',
+          year: '（2027）.',
+          title: '保护性耕作提升亚热带喀斯特地区油菜–玉米轮作系统的产量、能源效率、经济收益和环境可持续性。',
+          journal: 'European Journal of Agronomy，182: 128355.',
+          doi: '10.1016/j.eja.2026.128355',
+          doiUrl: 'https://doi.org/10.1016/j.eja.2026.128355'
+        }
+      ],
+      peerNote: '* 共同第一作者。',
+      msLabel: '论文稿件',
+      msItems: [
+        { text: '<strong>Ji, P. P.</strong>（共同作者）。干旱胁迫下植物–土壤–微生物互作。<em>撰写中。</em>' }
+      ]
     }
-  ],
-  peerNote: '* 共同第一作者。',
-  msLabel: '论文稿件',
-  msItems: [
-    { text: '<strong>Ji, P. P.</strong>（共同作者）。干旱胁迫下植物–土壤–微生物互作。<em>撰写中。</em>' }
-  ]
-},
+  },
 
   /* ---------- 技能与方法 skills ---------- */
   skills: {

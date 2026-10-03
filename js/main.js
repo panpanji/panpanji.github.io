@@ -183,6 +183,7 @@
             </div>`;
           }).join('')}
         </div>
+        ${C.publications.peerNote ? `<p class="pub-note">${esc(C.publications.peerNote)}</p>` : ''}
         <h3 class="subhead2">${esc(C.publications.msLabel)}</h3>
         <div class="card">
           <ul class="dot-list">
