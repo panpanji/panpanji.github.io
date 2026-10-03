@@ -393,14 +393,15 @@ const SITE = {
         doiUrl: 'https://doi.org/10.11829/j.issn.1001-0629.2023-0097'
       },
       {
-        authors: '<strong>Ji P P</strong> (co-first author)',
-        year: '(2026).',
+        authors: 'Li Z, <strong>Ji P P*</strong>, Peng S, Li Z, Gunina A, Wang T, Yang T, He J, Chen C, Zhang Z',
+        year: '(2027).',
         title: 'Conservation tillage enhances yield, energy efficiency, economic returns, and environmental sustainability in a rapeseed–maize rotation system in a subtropical karst region.',
-        journal: 'European Journal of Agronomy. Accepted for publication.',
-        doi: '',
-        doiUrl: ''
+        journal: 'European Journal of Agronomy, 182: 128355',
+        doi: '10.1016/j.eja.2026.128355',
+        doiUrl: 'https://doi.org/10.1016/j.eja.2026.128355'
       }
     ],
+    peerNote: '* Co-first author.',
     msLabel: 'Manuscripts',
     msItems: [
       { text: '<strong>Ji, P. P.</strong> (co-author). Plant-soil-microbe interactions under drought. <em>In preparation.</em>' }
@@ -419,14 +420,15 @@ const SITE = {
       doiUrl: 'https://doi.org/10.11829/j.issn.1001-0629.2023-0097'
     },
     {
-      authors: '<strong>Ji P P</strong>（共同第一作者）',
-      year: '（2026）.',
+      authors: 'Li Z, <strong>Ji P P*</strong>, Peng S, Li Z, Gunina A, Wang T, Yang T, He J, Chen C, Zhang Z',
+      year: '（2027）.',
       title: '保护性耕作提升亚热带喀斯特地区油菜–玉米轮作系统的产量、能源效率、经济收益和环境可持续性。',
-      journal: 'European Journal of Agronomy。已接收（Accepted for publication）。',
-      doi: '',
-      doiUrl: ''
+      journal: 'European Journal of Agronomy，182: 128355.',
+      doi: '10.1016/j.eja.2026.128355',
+      doiUrl: 'https://doi.org/10.1016/j.eja.2026.128355'
     }
   ],
+  peerNote: '* 共同第一作者。',
   msLabel: '论文稿件',
   msItems: [
     { text: '<strong>Ji, P. P.</strong>（共同作者）。干旱胁迫下植物–土壤–微生物互作。<em>撰写中。</em>' }
