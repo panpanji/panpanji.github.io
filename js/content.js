@@ -433,7 +433,7 @@ const SITE = {
   msItems: [
     { text: '<strong>Ji, P. P.</strong>（共同作者）。干旱胁迫下植物–土壤–微生物互作。<em>撰写中。</em>' }
   ]
-}
+},
 
   /* ---------- 技能与方法 skills ---------- */
   skills: {
